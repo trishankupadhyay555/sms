@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "notes": "Default filters for SMS parsing. Edit this file to add new patterns.",
+    "bank_patterns": {
+        "Bank of Baroda": "-BOB",
+        "HDFC Bank": "-HDFCBank|HDFCBK|HDFCBN",
+        "State Bank of India": "-SBIPSG|-SBI",
+        "IDFC First Bank": "-IDFCFIRST",
+        "ICICI Bank": "-ICICIBank",
+        "Axis Bank": "-AxisBank",
+        "Punjab National Bank": "-PNB",
+        "Canara Bank": "-CanaraBank",
+        "Kotak Bank": "Kotak Bank",
+        "JPB": "JPB"
+    },
+    "amount_pattern": "Rs\\.?[\\s]?([0-9,.]+)|([0-9,.]+)[\\s]?(Dr|Cr)",
+    "type_pattern": "(debited|credited|Dr|Cr)",
+    "account_pattern": "(A[/]?c[\\s]?(ending[\\s]|[Xx]{2,})?([^\\s]+))",
+    "upi_ref_pattern": "(UPI[\\s]?(Ref|Txn)[\\s]?(No|ID)?:?|[Uu][Tt][Rr]:)([0-9A-Z]+)",
+    "sender_upi_pattern": "(credited to|debited from).*?([0-9]+[@][a-zA-Z0-9]+)",
+    "balance_pattern": "Avl\\.?[\\s]?Bal:?[\\s]?Rs\\.?[\\s]?([0-9,.]+)"
+}
