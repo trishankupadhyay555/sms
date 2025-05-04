@@ -1,8 +1,8 @@
 {
-    "version": 1,
+    "version": 2,
     "notes": "Default filters for SMS parsing. Edit this file to add new patterns.",
     "bank_patterns": {
-        "Bank of Baroda": "-BOB",
+        "Bank of Baroda": "-UT",
         "HDFC Bank": "-HDFCBank|HDFCBK|HDFCBN",
         "State Bank of India": "-SBIPSG|-SBI",
         "IDFC First Bank": "-IDFCFIRST",
